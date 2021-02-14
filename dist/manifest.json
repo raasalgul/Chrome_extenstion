@@ -1,0 +1,14 @@
+{
+    "name": "Satz: Chrome Extension for Prod issue",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Satz: Chrome Extension for Prod issue",
+    "icons": {
+        "512": "logo512.png"
+    },
+    "permissions": ["activeTab", "<all_urls>"],
+    "browser_action": {
+        "default_icon": "logo512.png",
+        "default_popup": "popup.html"
+    }
+}
